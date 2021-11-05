@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: no-repeat url(../images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100%;
+  font-family: "Red-Hat-Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5rem auto;
+  padding-bottom: 2.5rem;
+  max-width: 50%;
+  width: 450px;
+  border-radius: 5%;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
+
+.image > * {
+  max-width: 100%;
+  width: 450px;
+  margin: auto;
+  border-radius: 5%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 3rem;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.copy {
+  padding: 1rem 5rem;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: 0fr 2fr 0fr;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  align-items: center;
+  width: 332px;
+}
+
+.annual_plan {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: hsl(223, 47%, 23%);
+  text-align: left;
+}
+
+.music {
+  margin-right: 1.25rem;
+}
+
+span{
+    font-weight: normal;
+    font-size: 0.9375rem;
+    color: hsl(224, 23%, 55%);;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    
+}
+
+.change:hover {
+    text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 11px 30px hsl(224, 23%, 55%);hsl(225, 100%, 94%);
+  -moz-box-shadow: 0px 11px 30px hsl(224, 23%, 55%);hsl(225, 100%, 94%);
+  box-shadow: 0px 11px 30px hsl(224, 23%, 55%);hsl(225, 100%, 94%);
+  color: #ffffff;
+  background: hsl(245, 75%, 52%);
+  padding: 15px 90px;
+  width: 332px;
+  height: 50px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #697de0;
+  text-decoration: none;
+}
+
+.cancel {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%)
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsiveness  */
+@media screen and (max-width: 900px){
+
+body{
+  width: 850px;
+  background: no-repeat url(../images/pattern-background-mobile.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100%;
+}
+}
