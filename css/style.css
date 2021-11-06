@@ -134,9 +134,30 @@ span{
 @media screen and (max-width: 900px){
 
 body{
-  width: 850px;
+  max-width: 100%;
   background: no-repeat url(../images/pattern-background-mobile.svg);
   background-color: hsl(225, 100%, 94%);
   background-size: 100%;
 }
+.container{
+  max-width: 85%;
+  position: relative;
+}
+}
+
+@media screen and (max-width: 494px){
+  .copy {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .plan{
+    width: 282px;
+  }
+
+  .btn{
+    width: 280px;
+    padding: 1rem;
+  }
+
 }
