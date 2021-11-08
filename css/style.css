@@ -78,7 +78,7 @@ p {
 span{
     font-weight: normal;
     font-size: 0.9375rem;
-    color: hsl(224, 23%, 55%);;
+    color: hsl(224, 23%, 55%);
 }
 
 .change {
@@ -113,7 +113,7 @@ span{
 
 .cancel {
     text-decoration: none;
-    color: hsl(223, 10%, 64%);
+    color: hsl(224, 23%, 55%);
 }
 
 .cancel:hover {
