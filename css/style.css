@@ -107,13 +107,13 @@ span{
 }
 
 .btn:hover {
-  background: #697de0;
+  background: hsl(223, 10%, 64%);
   text-decoration: none;
 }
 
 .cancel {
     text-decoration: none;
-    color: hsl(224, 23%, 55%);
+    color: hsl(223, 10%, 64%);
 }
 
 .cancel:hover {
