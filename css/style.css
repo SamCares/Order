@@ -107,7 +107,7 @@ span{
 }
 
 .btn:hover {
-  background: hsl(223, 10%, 64%);
+  background: #697de0;
   text-decoration: none;
 }
 
